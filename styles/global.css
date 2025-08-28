@@ -24,6 +24,10 @@ body {
   font: var(--font-default);
 }
 
+img {
+  max-width: 100%;
+}
+
 a {
   text-decoration: none;
   color: var(--text-color-secondary);
@@ -43,7 +47,7 @@ li a {
 }
 
 a[aria-label] {
-  background: url(../assets/icons/MagnifyingGlass.svg) no-repeat left;
+  background: url(../assets/icons/MagnifyingGlass.svg) no-repeat left center;
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
@@ -60,6 +64,8 @@ a[aria-label] {
   }
 
   a[aria-label] {
+    display: initial;
+
     &::after {
       content: attr(aria-label);
       padding-left: 2rem;

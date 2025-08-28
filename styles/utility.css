@@ -4,8 +4,28 @@
   margin-inline: auto;
 }
 
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.desktop-only {
+  display: none;
+}
+
 @media (width >= 80em) {
   .container {
     --max-width: 1280px;
+  }
+
+  .desktop-only {
+    display: initial;
   }
 }
