@@ -22,6 +22,7 @@ body {
   background-color: #fff;
   color: var(--text-color-secondary);
   font: var(--font-default);
+  min-height: 100dvh;
 }
 
 img {
