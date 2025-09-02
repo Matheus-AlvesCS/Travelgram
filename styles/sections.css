@@ -53,3 +53,13 @@ section#about {
     }
   }
 }
+
+section#photo-gallery {
+  padding-block: 1rem;
+
+  @media (width >= 80em) {
+    padding-block: 1.5rem;
+    grid-template-columns: repeat(4, minmax(17.875rem, 1fr));
+    gap: 1.5rem;
+  }
+}
