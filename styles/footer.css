@@ -1,0 +1,15 @@
+footer {
+  text-align: center;
+  padding-block: 1rem;
+  flex-direction: column;
+
+  & span {
+    line-height: 1.5;
+  }
+
+  @media (width >= 80em) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block: 1.5rem;
+  }
+}

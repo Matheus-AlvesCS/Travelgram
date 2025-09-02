@@ -3,7 +3,7 @@ header {
   justify-content: space-between;
   padding-block: 1rem;
 
-  .header-profile-img {
+  & .header-profile-img {
     width: 2.5rem;
   }
 
